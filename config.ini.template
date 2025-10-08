@@ -1,0 +1,13 @@
+[settings]
+# This employee_id will be automatically injected by the backend's installer maker API.
+employee_id = emp_replace_this_id
+
+# The URL of the backend server's activity endpoint.
+backend_url = "backend_url"
+
+# The secret key required by the backend's activity endpoint.
+# This key is the same for all daemons.
+daemon_api_key = "daemon_api_key"
+
+# Time in seconds of no keyboard/mouse activity before the user is considered idle.
+idle_threshold_seconds = 300
