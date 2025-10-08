@@ -1,0 +1,9 @@
+#Python virtual environment
+venv/
+
+#Python cache files
+pycache/
+*.py[cod]
+*$py.class
+#Environment variables file
+.env
